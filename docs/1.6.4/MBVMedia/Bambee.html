@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>MBVMedia\Bambee | Bambee Core API</title>
+
+            <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/sami.css">
+        <script src="../js/jquery-1.11.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/typeahead.min.js"></script>
+        <script src="../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:MBVMedia_Bambee" data-root-path="../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                    <form action="#" method="GET">
+                <select id="version-switcher" name="version">
+                                            <option value="../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
+                                            <option value="../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
+                                            <option value="../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
+                                            <option value="../../1.6.2/index.html" data-version="1.6.2">1.6.2</option>
+                                            <option value="../../1.6.1/index.html" data-version="1.6.1">1.6.1</option>
+                                            <option value="../../1.6.0/index.html" data-version="1.6.0">1.6.0</option>
+                                            <option value="../../1.5.0/index.html" data-version="1.5.0">1.5.0</option>
+                                            <option value="../../1.4.1/index.html" data-version="1.4.1">1.4.1</option>
+                                            <option value="../../1.4.0/index.html" data-version="1.4.0">1.4.0</option>
+                                    </select>
+            </form>
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Bambee Core API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../classes.html">Classes</a></li>
+                                            <li><a href="../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../interfaces.html">Interfaces</a></li>
+                    <li><a href="../traits.html">Traits</a></li>
+                    <li><a href="../doc-index.html">Index</a></li>
+                    <li><a href="../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../MBVMedia.html">MBVMedia</a></li><li class="backslash">\</li><li>Bambee</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            Bambee
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>Bambee</strong>        extends <a href="../MBVMedia/BambeeBase.html"><abbr title="MBVMedia\BambeeBase">BambeeBase</abbr></a>        (<a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php">View source</a>)
+</p>
+
+        
+    
+
+            <div class="description">
+            <p>The class representing both website (user frontend) and WordPress admin.</p>                                </div>
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addActions">addActions</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addFilters">addFilters</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_actionInit">actionInit</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_actionAfterSetupTheme">actionAfterSetupTheme</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initShortcodes">initShortcodes</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initDynamicFrontpage">initDynamicFrontpage</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initCookieNotice">initCookieNotice</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initThemeCustomizer">initThemeCustomizer</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initThemeSettingsDynamicFrontPage">initThemeSettingsDynamicFrontPage</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initThemeSettingsComments">initThemeSettingsComments</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initThemeSettingsCoreData">initThemeSettingsCoreData</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_initThemeSettingsGoogle">initThemeSettingsGoogle</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../MBVMedia/Shortcode/Lib/ShortcodeManager.html"><abbr title="MBVMedia\Shortcode\Lib\ShortcodeManager">ShortcodeManager</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getShortcodeManager">getShortcodeManager</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setPostThumbnailWidth">setPostThumbnailWidth</a>(int $postThumbnailWidth)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setPostThumbnailHeight">setPostThumbnailHeight</a>(int $postThumbnailHeight)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setPostThumbnailCrop">setPostThumbnailCrop</a>(boolean $postThumbnailCrop)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addMenu">addMenu</a>($slug, $title)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_registerMenus">registerMenus</a>()
+        
+                                            <p>Register menus.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addPostType">addPostType</a>($postType, array $args)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_registerPostTypes">registerPostTypes</a>()
+        
+                                            <p>Register post types.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getComponentUrl">getComponentUrl</a>()
+        
+                                            <p>Returns url to compentents of bambee</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_loadThemeTextdomain">loadThemeTextdomain</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addThemeSupportPostThumbnails">addThemeSupportPostThumbnails</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addThemeSupportCustomLogo">addThemeSupportCustomLogo</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addThemeSupportCustomHeader">addThemeSupportCustomHeader</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addThemeSupportCustomBackground">addThemeSupportCustomBackground</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addPostTypeSupportExcerpt">addPostTypeSupportExcerpt</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    static&nbsp;
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_self">self</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_addActions">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L108">line 108</a></div>
+        <code>                    void
+    <strong>addActions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addFilters">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L116">line 116</a></div>
+        <code>                    void
+    <strong>addFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L69">line 69</a></div>
+        <code>            protected        void
+    <strong>__construct</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_actionInit">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L123">line 123</a></div>
+        <code>                    
+    <strong>actionInit</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_actionAfterSetupTheme">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L130">line 130</a></div>
+        <code>                    
+    <strong>actionAfterSetupTheme</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initShortcodes">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L175">line 175</a></div>
+        <code>                    
+    <strong>initShortcodes</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initDynamicFrontpage">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L190">line 190</a></div>
+        <code>                    
+    <strong>initDynamicFrontpage</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initCookieNotice">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L210">line 210</a></div>
+        <code>                    
+    <strong>initCookieNotice</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initThemeCustomizer">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L223">line 223</a></div>
+        <code>                    
+    <strong>initThemeCustomizer</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initThemeSettingsDynamicFrontPage">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L235">line 235</a></div>
+        <code>                    
+    <strong>initThemeSettingsDynamicFrontPage</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initThemeSettingsComments">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L271">line 271</a></div>
+        <code>                    
+    <strong>initThemeSettingsComments</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initThemeSettingsCoreData">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L293">line 293</a></div>
+        <code>                    
+    <strong>initThemeSettingsCoreData</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_initThemeSettingsGoogle">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L343">line 343</a></div>
+        <code>                    
+    <strong>initThemeSettingsGoogle</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getShortcodeManager">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L440">line 440</a></div>
+        <code>                    <a href="../MBVMedia/Shortcode/Lib/ShortcodeManager.html"><abbr title="MBVMedia\Shortcode\Lib\ShortcodeManager">ShortcodeManager</abbr></a>
+    <strong>getShortcodeManager</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../MBVMedia/Shortcode/Lib/ShortcodeManager.html"><abbr title="MBVMedia\Shortcode\Lib\ShortcodeManager">ShortcodeManager</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setPostThumbnailWidth">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L449">line 449</a></div>
+        <code>                    
+    <strong>setPostThumbnailWidth</strong>(int $postThumbnailWidth)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>int</td>
+                <td>$postThumbnailWidth</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setPostThumbnailHeight">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L458">line 458</a></div>
+        <code>                    
+    <strong>setPostThumbnailHeight</strong>(int $postThumbnailHeight)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>int</td>
+                <td>$postThumbnailHeight</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setPostThumbnailCrop">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L467">line 467</a></div>
+        <code>                    
+    <strong>setPostThumbnailCrop</strong>(boolean $postThumbnailCrop)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>boolean</td>
+                <td>$postThumbnailCrop</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addMenu">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L479">line 479</a></div>
+        <code>                    
+    <strong>addMenu</strong>($slug, $title)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$slug</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$title</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_registerMenus">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L489">line 489</a></div>
+        <code>                    void
+    <strong>registerMenus</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Register menus.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addPostType">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L499">line 499</a></div>
+        <code>                    
+    <strong>addPostType</strong>($postType, array $args)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$postType</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_registerPostTypes">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L510">line 510</a></div>
+        <code>                    void
+    <strong>registerPostTypes</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Register post types.</p>                    <p>type 'page'.</p>                            </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getComponentUrl">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L522">line 522</a></div>
+        <code>                    mixed
+    <strong>getComponentUrl</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Returns url to compentents of bambee</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_loadThemeTextdomain">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L539">line 539</a></div>
+        <code>                    
+    <strong>loadThemeTextdomain</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addThemeSupportPostThumbnails">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L547">line 547</a></div>
+        <code>                    
+    <strong>addThemeSupportPostThumbnails</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addThemeSupportCustomLogo">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L559">line 559</a></div>
+        <code>                    
+    <strong>addThemeSupportCustomLogo</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addThemeSupportCustomHeader">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L566">line 566</a></div>
+        <code>                    
+    <strong>addThemeSupportCustomHeader</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addThemeSupportCustomBackground">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L573">line 573</a></div>
+        <code>                    
+    <strong>addThemeSupportCustomBackground</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addPostTypeSupportExcerpt">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L580">line 580</a></div>
+        <code>                    
+    <strong>addPostTypeSupportExcerpt</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_self">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.6.4/src/MBVMedia/Bambee.php#L587">line 587</a></div>
+        <code>        static            
+    <strong>self</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>

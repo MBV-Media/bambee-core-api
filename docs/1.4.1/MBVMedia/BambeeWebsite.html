@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>MBVMedia\BambeeWebsite | Bambee Core API</title>
+
+            <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/sami.css">
+        <script src="../js/jquery-1.11.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/typeahead.min.js"></script>
+        <script src="../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:MBVMedia_BambeeWebsite" data-root-path="../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                    <form action="#" method="GET">
+                <select id="version-switcher" name="version">
+                                            <option value="../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
+                                            <option value="../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
+                                            <option value="../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
+                                            <option value="../../1.6.2/index.html" data-version="1.6.2">1.6.2</option>
+                                            <option value="../../1.6.1/index.html" data-version="1.6.1">1.6.1</option>
+                                            <option value="../../1.6.0/index.html" data-version="1.6.0">1.6.0</option>
+                                            <option value="../../1.5.0/index.html" data-version="1.5.0">1.5.0</option>
+                                            <option value="../../1.4.1/index.html" data-version="1.4.1">1.4.1</option>
+                                            <option value="../../1.4.0/index.html" data-version="1.4.0">1.4.0</option>
+                                    </select>
+            </form>
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Bambee Core API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../classes.html">Classes</a></li>
+                                            <li><a href="../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../interfaces.html">Interfaces</a></li>
+                    <li><a href="../traits.html">Traits</a></li>
+                    <li><a href="../doc-index.html">Index</a></li>
+                    <li><a href="../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../MBVMedia.html">MBVMedia</a></li><li class="backslash">\</li><li>BambeeWebsite</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            BambeeWebsite
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>BambeeWebsite</strong>        extends <a href="../MBVMedia/BambeeBase.html"><abbr title="MBVMedia\BambeeBase">BambeeBase</abbr></a>        (<a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php">View source</a>)
+</p>
+
+        
+    
+
+            <div class="description">
+            <p>The class representing the website (user frontend).</p>                                </div>
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addActions">addActions</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addFilters">addFilters</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>(<a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a> $bambee)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getBambee">getBambee</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    null|string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCoreData">getCoreData</a>($key)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    null|string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getGlobalData">getGlobalData</a>($key)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommentPaginationNextText">getCommentPaginationNextText</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCommentPaginationNextText">setCommentPaginationNextText</a>(string $commentPaginationNextText)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommentPaginationPrevText">getCommentPaginationPrevText</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCommentPaginationPrevText">setCommentPaginationPrevText</a>(string $commentPaginationPrevText)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommentPaginationPageTemplate">getCommentPaginationPageTemplate</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCommentPaginationPageTemplate">setCommentPaginationPageTemplate</a>(string $commentPaginationPageTemplate)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addScripts">addScripts</a>()
+        
+                                            <p>Enqueue additional scripts</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addStyles">addStyles</a>()
+        
+                                            <p>Enqueue additional styles</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addScript">addScript</a>($handle, $src, array $deps = array(), bool $ver = false, bool $inFooter = false)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addLocalizedScript">addLocalizedScript</a>($handle, $name, array $data)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addStyle">addStyle</a>($handle, $src, array $deps = array(), bool $ver = false, string $media = &#039;all&#039;)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_disableEmojis">disableEmojis</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_commentList">commentList</a>(string $comment, array $args, int $depth)
+        
+                                            <p>Customize the comment list.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommentList">getCommentList</a>($comment, $args, $depth)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_commentPagination">commentPagination</a>()
+        
+                                            <p>Display comments pagination.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommentPagination">getCommentPagination</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addCF7DefaultRecipient">addCF7DefaultRecipient</a>($cf7)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_enqueueScripts">enqueueScripts</a>()
+        
+                                            <p>Enqueue all added JS files.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_enqueueLocalizeScripts">enqueueLocalizeScripts</a>()
+        
+                                            <p>Enqueue all added localize JS files.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_enqueueStyles">enqueueStyles</a>()
+        
+                                            <p>Enqueue all added CSS files.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_printGoogleAnalyticsCode">printGoogleAnalyticsCode</a>()
+        
+                                            <p>Prints the Google Analytics code if a tracking code is set.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_addActions">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L189">line 189</a></div>
+        <code>                    void
+    <strong>addActions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addFilters">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L201">line 201</a></div>
+        <code>                    void
+    <strong>addFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L82">line 82</a></div>
+        <code>                    void
+    <strong>__construct</strong>(<a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a> $bambee)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a></td>
+                <td>$bambee</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getBambee">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L108">line 108</a></div>
+        <code>                    <a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a>
+    <strong>getBambee</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../MBVMedia/Bambee.html"><abbr title="MBVMedia\Bambee">Bambee</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCoreData">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L118">line 118</a></div>
+        <code>                    null|string
+    <strong>getCoreData</strong>($key)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$key</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>null|string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getGlobalData">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L128">line 128</a></div>
+        <code>                    null|string
+    <strong>getGlobalData</strong>($key)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$key</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>null|string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommentPaginationNextText">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L137">line 137</a></div>
+        <code>                    string
+    <strong>getCommentPaginationNextText</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCommentPaginationNextText">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L146">line 146</a></div>
+        <code>                    
+    <strong>setCommentPaginationNextText</strong>(string $commentPaginationNextText)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$commentPaginationNextText</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommentPaginationPrevText">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L155">line 155</a></div>
+        <code>                    string
+    <strong>getCommentPaginationPrevText</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCommentPaginationPrevText">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L164">line 164</a></div>
+        <code>                    
+    <strong>setCommentPaginationPrevText</strong>(string $commentPaginationPrevText)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$commentPaginationPrevText</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommentPaginationPageTemplate">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L173">line 173</a></div>
+        <code>                    string
+    <strong>getCommentPaginationPageTemplate</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCommentPaginationPageTemplate">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L182">line 182</a></div>
+        <code>                    
+    <strong>setCommentPaginationPageTemplate</strong>(string $commentPaginationPageTemplate)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$commentPaginationPageTemplate</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addScripts">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L208">line 208</a></div>
+        <code>                    
+    <strong>addScripts</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enqueue additional scripts</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addStyles">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L229">line 229</a></div>
+        <code>                    
+    <strong>addStyles</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enqueue additional styles</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addScript">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L242">line 242</a></div>
+        <code>                    
+    <strong>addScript</strong>($handle, $src, array $deps = array(), bool $ver = false, bool $inFooter = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$handle</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$src</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$deps</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>bool</td>
+                <td>$ver</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>bool</td>
+                <td>$inFooter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addLocalizedScript">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L259">line 259</a></div>
+        <code>                    
+    <strong>addLocalizedScript</strong>($handle, $name, array $data)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$handle</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$data</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addStyle">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L276">line 276</a></div>
+        <code>                    
+    <strong>addStyle</strong>($handle, $src, array $deps = array(), bool $ver = false, string $media = &#039;all&#039;)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$handle</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$src</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$deps</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>bool</td>
+                <td>$ver</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$media</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_disableEmojis">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L289">line 289</a></div>
+        <code>                    
+    <strong>disableEmojis</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_commentList">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L306">line 306</a></div>
+        <code>                    void
+    <strong>commentList</strong>(string $comment, array $args, int $depth)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Customize the comment list.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$comment</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>int</td>
+                <td>$depth</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommentList">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L317">line 317</a></div>
+        <code>                    string
+    <strong>getCommentList</strong>($comment, $args, $depth)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$comment</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$args</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$depth</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_commentPagination">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L339">line 339</a></div>
+        <code>                    void
+    <strong>commentPagination</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Display comments pagination.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommentPagination">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L347">line 347</a></div>
+        <code>                    string
+    <strong>getCommentPagination</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addCF7DefaultRecipient">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L396">line 396</a></div>
+        <code>                    
+    <strong>addCF7DefaultRecipient</strong>($cf7)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$cf7</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_enqueueScripts">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L414">line 414</a></div>
+        <code>                    
+    <strong>enqueueScripts</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enqueue all added JS files.</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_enqueueLocalizeScripts">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L433">line 433</a></div>
+        <code>                    
+    <strong>enqueueLocalizeScripts</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enqueue all added localize JS files.</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_enqueueStyles">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L450">line 450</a></div>
+        <code>                    
+    <strong>enqueueStyles</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enqueue all added CSS files.</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_printGoogleAnalyticsCode">
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/1.4.1/src/MBVMedia/BambeeWebsite.php#L469">line 469</a></div>
+        <code>                    
+    <strong>printGoogleAnalyticsCode</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Prints the Google Analytics code if a tracking code is set.</p>                                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
