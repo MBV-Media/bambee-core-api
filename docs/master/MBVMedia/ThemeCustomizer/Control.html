@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -99,6 +100,8 @@
         
     
 
+            <div class="description">
+            <p>Class Control</p>                                </div>
     
     
     
@@ -108,79 +111,52 @@
             <div class="container-fluid underlined">
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method___construct">__construct</a>($id, array $args, <a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a> $setting = null)
+                    <a href="#method___construct">__construct</a>($id, array $args)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
-                <div class="col-md-2"></div>
+                                            <p>ThemeCustommizerElement constructor.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method___construct"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    mixed
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getId">getId</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the id.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getId"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    array
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getArgs">getArgs</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the all arguments.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getArgs"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_setArg">setArg</a>($name, $value)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set argument.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_setArg"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_register">register</a>(WP_Customize_Manager $wpCustomize)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
-                <div class="col-md-2"></div>
-            </div>
-                    <div class="row">
-                <div class="col-md-2 type">
-                    
-                </div>
-                <div class="col-md-8 type">
-                    <a href="#method_getSetting">getSetting</a>()
-        
-                                            <p class="no-description">No description</p>
-                                    </div>
-                <div class="col-md-2"></div>
-            </div>
-                    <div class="row">
-                <div class="col-md-2 type">
-                    
-                </div>
-                <div class="col-md-8 type">
-                    <a href="#method_setSetting">setSetting</a>(<a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a> $setting)
-        
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Register the customizer element with the WP_Csutomize_Manager</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -191,15 +167,17 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/Control.php#L18">line 18</a></div>
-        <code>                    
-    <strong>__construct</strong>($id, array $args, <a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a> $setting = null)
+        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method___construct"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L45">line 45</a></div>
+        <code>                    void
+    <strong>__construct</strong>($id, array $args)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>ThemeCustommizerElement constructor.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -214,14 +192,18 @@
                 <td>$args</td>
                 <td></td>
             </tr>
-                    <tr>
-                <td><a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a></td>
-                <td>$setting</td>
-                <td></td>
-            </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -230,8 +212,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getId">
-        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getId"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L22">line 22</a></div>
-        <code>                    
+        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getId"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L57">line 57</a></div>
+        <code>                    mixed
     <strong>getId</strong>()
         </code>
     </h3>
@@ -239,8 +221,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the id.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -249,8 +242,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getArgs">
-        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getArgs"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L26">line 26</a></div>
-        <code>                    
+        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_getArgs"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L68">line 68</a></div>
+        <code>                    array
     <strong>getArgs</strong>()
         </code>
     </h3>
@@ -258,8 +251,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the all arguments.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -268,8 +272,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setArg">
-        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_setArg"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L30">line 30</a></div>
-        <code>                    
+        <div class="location">in <a href="../../MBVMedia/ThemeCustomizer/ThemeCustommizerElement.html#method_setArg"><abbr title="MBVMedia\ThemeCustomizer\ThemeCustommizerElement">ThemeCustommizerElement</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/ThemeCustommizerElement.php#L82">line 82</a></div>
+        <code>                    void
     <strong>setArg</strong>($name, $value)
         </code>
     </h3>
@@ -277,6 +281,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set argument.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -294,6 +300,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -302,8 +317,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_register">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/Control.php#L32">line 32</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/Control.php#L23">line 23</a></div>
+        <code>                    void
     <strong>register</strong>(WP_Customize_Manager $wpCustomize)
         </code>
     </h3>
@@ -311,6 +326,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Register the customizer element with the WP_Csutomize_Manager</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -323,54 +340,15 @@
             </table>
 
             
-            
-            
-                    </div>
-    </div>
-
-            </div>
-                    <div class="method-item">
-                    <h3 id="method_getSetting">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/Control.php#L23">line 23</a></div>
-        <code>                    
-    <strong>getSetting</strong>()
-        </code>
-    </h3>
-    <div class="details">
-            
-    
-
-                <div class="tags">
-            
-            
-            
-                    </div>
-    </div>
-
-            </div>
-                    <div class="method-item">
-                    <h3 id="method_setSetting">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/ThemeCustomizer/Control.php#L27">line 27</a></div>
-        <code>                    
-    <strong>setSetting</strong>(<a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a> $setting)
-        </code>
-    </h3>
-    <div class="details">
-            
-    
-
-                <div class="tags">
-                            <h4>Parameters</h4>
+                            <h4>Return Value</h4>
 
                     <table class="table table-condensed">
-                    <tr>
-                <td><a href="../../MBVMedia/ThemeCustomizer/Setting.html"><abbr title="MBVMedia\ThemeCustomizer\Setting">Setting</abbr></a></td>
-                <td>$setting</td>
-                <td></td>
-            </tr>
-            </table>
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
 
-            
             
             
                     </div>

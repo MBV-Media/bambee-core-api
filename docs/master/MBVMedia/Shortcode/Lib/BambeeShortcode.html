@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -100,6 +101,8 @@
         
     
 
+            <div class="description">
+            <p>Class BambeeShortcode</p>                                </div>
     
     
     
@@ -124,19 +127,17 @@
                 <div class="col-md-8 type">
                     <a href="#method_getSupportedAtts">getSupportedAtts</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get all supported attributes.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addAttribute">addAttribute</a>($name, string $default = &#039;&#039;, string $type = &#039;text&#039;)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add an attribute.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -146,30 +147,27 @@
                 <div class="col-md-8 type">
                     <a href="#method_getDescription">getDescription</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the description.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setDescription">setDescription</a>($description)
+                    <a href="#method_setDescription">setDescription</a>(mixed $description)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set the description.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    static&nbsp;
+                    static&nbsp;void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addShortcode">addShortcode</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add the shortcode to Wordpress.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -177,10 +175,9 @@
                     static&nbsp;mixed
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_doShortcode">doShortcode</a>(array $atts = array(), string $content = &#039;&#039;)
+                    <a href="#method_doShortcode">doShortcode</a>(array $atts = [], string $content = &#039;&#039;)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Executes the shortcode.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -190,8 +187,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getShortcodeAlias">getShortcodeAlias</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the alias for the shortcode.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -199,10 +195,9 @@
                     static&nbsp;string
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_getUnqualifiedClassName">getUnqualifiedClassName</a>($class = null)
+                    <a href="#method_getUnqualifiedClassName">getUnqualifiedClassName</a>(string|object|null $class = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the unqualified class name.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -213,7 +208,7 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L21">line 21</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L40">line 40</a></div>
         <code>                    
     <strong>__construct</strong>()
         </code>
@@ -234,7 +229,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getSupportedAtts">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L28">line 28</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L50">line 50</a></div>
         <code>                    array
     <strong>getSupportedAtts</strong>()
         </code>
@@ -243,6 +238,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get all supported attributes.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -250,7 +247,7 @@
                     <table class="table table-condensed">
         <tr>
             <td>array</td>
-            <td></td>
+            <td>An array of attributes.</td>
         </tr>
     </table>
 
@@ -262,8 +259,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addAttribute">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L37">line 37</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L64">line 64</a></div>
+        <code>                    void
     <strong>addAttribute</strong>($name, string $default = &#039;&#039;, string $type = &#039;text&#039;)
         </code>
     </h3>
@@ -271,6 +268,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add an attribute.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -283,16 +282,25 @@
                     <tr>
                 <td>string</td>
                 <td>$default</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>string</td>
                 <td>$type</td>
-                <td>TinyMCE input type</td>
+                <td>(optional) TinyMCE input type</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -301,7 +309,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getDescription">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L49">line 49</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L80">line 80</a></div>
         <code>                    mixed
     <strong>getDescription</strong>()
         </code>
@@ -310,6 +318,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the description.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -329,27 +339,38 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setDescription">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L56">line 56</a></div>
-        <code>                    
-    <strong>setDescription</strong>($description)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L93">line 93</a></div>
+        <code>                    void
+    <strong>setDescription</strong>(mixed $description)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Set the description.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$description</td>
                 <td></td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -358,8 +379,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addShortcode">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L63">line 63</a></div>
-        <code>        static            
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L104">line 104</a></div>
+        <code>        static            void
     <strong>addShortcode</strong>()
         </code>
     </h3>
@@ -367,8 +388,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add the shortcode to Wordpress.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -377,15 +409,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_doShortcode">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L80">line 80</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L125">line 125</a></div>
         <code>        static            mixed
-    <strong>doShortcode</strong>(array $atts = array(), string $content = &#039;&#039;)
+    <strong>doShortcode</strong>(array $atts = [], string $content = &#039;&#039;)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Executes the shortcode.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -393,12 +427,12 @@
                     <tr>
                 <td>array</td>
                 <td>$atts</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>string</td>
                 <td>$content</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
@@ -420,7 +454,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getShortcodeAlias">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L97">line 97</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L146">line 146</a></div>
         <code>        static            string
     <strong>getShortcodeAlias</strong>()
         </code>
@@ -429,6 +463,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the alias for the shortcode.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -448,23 +484,25 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getUnqualifiedClassName">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L104">line 104</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/BambeeShortcode.php#L159">line 159</a></div>
         <code>        static            string
-    <strong>getUnqualifiedClassName</strong>($class = null)
+    <strong>getUnqualifiedClassName</strong>(string|object|null $class = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Get the unqualified class name.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td></td>
+                <td>string|object|null</td>
                 <td>$class</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 

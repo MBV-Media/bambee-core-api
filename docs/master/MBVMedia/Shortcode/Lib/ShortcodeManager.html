@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -99,6 +100,8 @@
         
     
 
+            <div class="description">
+            <p>Class ShortcodeManager</p>                                </div>
     
     
     
@@ -118,46 +121,42 @@
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_loadShortcodes">loadShortcodes</a>($path, $namespace)
+                    <a href="#method_loadShortcodes">loadShortcodes</a>(array $path, mixed $namespace)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Load all shortcodes.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addShortcodes">addShortcodes</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add all loaded shortcodes to Wordpress.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_extendTinyMCE">extendTinyMCE</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Extend tinyMCE.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_printShortcodeData">printShortcodeData</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Make the shortcode data available in javascript.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -167,8 +166,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_tinyMceRegisterButton">tinyMceRegisterButton</a>($buttons)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Register the shortcode button with tinxMCE.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -178,8 +176,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_tinyMceRegisterPlugin">tinyMceRegisterPlugin</a>($pluginArray)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Register the shortcode plugin with tinyMCE.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -190,7 +187,7 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L16">line 16</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L31">line 31</a></div>
         <code>                    
     <strong>__construct</strong>()
         </code>
@@ -211,32 +208,43 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_loadShortcodes">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L23">line 23</a></div>
-        <code>                    
-    <strong>loadShortcodes</strong>($path, $namespace)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L45">line 45</a></div>
+        <code>                    void
+    <strong>loadShortcodes</strong>(array $path, mixed $namespace)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Load all shortcodes.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$path</td>
                 <td></td>
             </tr>
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$namespace</td>
                 <td></td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -245,8 +253,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addShortcodes">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L44">line 44</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L69">line 69</a></div>
+        <code>                    void
     <strong>addShortcodes</strong>()
         </code>
     </h3>
@@ -254,8 +262,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add all loaded shortcodes to Wordpress.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -264,8 +283,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_extendTinyMCE">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L56">line 56</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L85">line 85</a></div>
+        <code>                    void
     <strong>extendTinyMCE</strong>()
         </code>
     </h3>
@@ -273,8 +292,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Extend tinyMCE.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -283,8 +313,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_printShortcodeData">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L65">line 65</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L98">line 98</a></div>
+        <code>                    void
     <strong>printShortcodeData</strong>()
         </code>
     </h3>
@@ -292,8 +322,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Make the shortcode data available in javascript.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -302,7 +343,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_tinyMceRegisterButton">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L86">line 86</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L125">line 125</a></div>
         <code>                    mixed
     <strong>tinyMceRegisterButton</strong>($buttons)
         </code>
@@ -311,6 +352,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Register the shortcode button with tinxMCE.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -340,7 +383,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_tinyMceRegisterPlugin">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L102">line 102</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/Shortcode/Lib/ShortcodeManager.php#L146">line 146</a></div>
         <code>                    mixed
     <strong>tinyMceRegisterPlugin</strong>($pluginArray)
         </code>
@@ -349,6 +392,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Register the shortcode plugin with tinyMCE.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 

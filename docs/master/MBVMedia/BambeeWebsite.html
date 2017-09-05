@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -115,8 +116,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_addActions">addActions</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>This is the place where Wordpress actions should be added.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -126,19 +126,17 @@
                 <div class="col-md-8 type">
                     <a href="#method_addFilters">addFilters</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>This is the place where Wordpress filters should be added.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    void
+                    
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method___construct">__construct</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>BambeeWebsite constructor.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -148,19 +146,17 @@
                 <div class="col-md-8 type">
                     <a href="#method_getCommentPaginationNextText">getCommentPaginationNextText</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the comment pagination text for the next-button.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_setCommentPaginationNextText">setCommentPaginationNextText</a>(string $commentPaginationNextText)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set the comment pagination text for the next-button.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -170,8 +166,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getCommentPaginationPrevText">getCommentPaginationPrevText</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the comment pagination text for the previous-button.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -181,8 +176,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_setCommentPaginationPrevText">setCommentPaginationPrevText</a>(string $commentPaginationPrevText)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set the comment pagination text for the previous-button.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -192,8 +186,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getCommentPaginationPageTemplate">getCommentPaginationPageTemplate</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the comment pagination template.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -203,72 +196,67 @@
                 <div class="col-md-8 type">
                     <a href="#method_setCommentPaginationPageTemplate">setCommentPaginationPageTemplate</a>(string $commentPaginationPageTemplate)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set the comment pagination template.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addScripts">addScripts</a>()
         
-                                            <p>Enqueue additional scripts</p>                </div>
+                                            <p>Register additional scripts.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addStyles">addStyles</a>()
         
-                                            <p>Enqueue additional styles</p>                </div>
+                                            <p>Register additional styles.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_addScript">addScript</a>($handle, $src, array $deps = array(), bool $ver = false, bool $inFooter = false)
+                    <a href="#method_addScript">addScript</a>($handle, $src, array $deps = [], bool $ver = false, bool $inFooter = false)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Register a script.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addLocalizedScript">addLocalizedScript</a>($handle, $name, array $data)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Register a localized script.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_addStyle">addStyle</a>($handle, $src, array $deps = array(), bool $ver = false, string $media = &#039;all&#039;)
+                    <a href="#method_addStyle">addStyle</a>($handle, $src, array $deps = [], bool $ver = false, string $media = &#039;all&#039;)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Regsiter a style.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_disableEmojis">disableEmojis</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Disable the Wordpress default emojis.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -288,8 +276,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getCommentList">getCommentList</a>($comment, $args, $depth)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the comment list.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -299,7 +286,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_commentPagination">commentPagination</a>()
         
-                                            <p>Display comments pagination.</p>                </div>
+                                            <p>Renders the comment pagination.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -309,8 +296,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getCommentPagination">getCommentPagination</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the comment pagination.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -320,8 +306,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_addCF7DefaultRecipient">addCF7DefaultRecipient</a>($cf7)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set a default recipient to contact form 7 mails.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -331,13 +316,12 @@
                 <div class="col-md-8 type">
                     <a href="#method_moveCommentFieldToBottom">moveCommentFieldToBottom</a>($fields)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Moves the comment textfield to the bottom of the form.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_enqueueScripts">enqueueScripts</a>()
@@ -347,7 +331,7 @@
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_enqueueLocalizeScripts">enqueueLocalizeScripts</a>()
@@ -357,7 +341,7 @@
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_enqueueStyles">enqueueStyles</a>()
@@ -367,7 +351,7 @@
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_printGoogleAnalyticsCode">printGoogleAnalyticsCode</a>()
@@ -377,35 +361,32 @@
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_mainLoop">mainLoop</a>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial)
+                    <a href="#method_mainLoop">mainLoop</a>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Performs the Wordpress main loop.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_customLoop">customLoop</a>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, array $queryArgs = array(), <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
+                    <a href="#method_customLoop">customLoop</a>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, array $queryArgs = [], <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Performs a custom loop.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    static&nbsp;
+                    static&nbsp;<a href="../MBVMedia/Lib/Singleton.html"><abbr title="MBVMedia\Lib\Singleton">Singleton</abbr></a>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_self">self</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the instance itself.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -416,7 +397,7 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method_addActions">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L137">line 137</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L188">line 188</a></div>
         <code>                    void
     <strong>addActions</strong>()
         </code>
@@ -425,6 +406,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>This is the place where Wordpress actions should be added.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -444,7 +427,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addFilters">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L153">line 153</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L206">line 206</a></div>
         <code>                    void
     <strong>addFilters</strong>()
         </code>
@@ -453,6 +436,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>This is the place where Wordpress filters should be added.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -472,8 +457,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L64">line 64</a></div>
-        <code>            protected        void
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L88">line 88</a></div>
+        <code>            protected        
     <strong>__construct</strong>()
         </code>
     </h3>
@@ -481,17 +466,10 @@
             
     
 
+                    <div class="method-description">
+                                    <p>BambeeWebsite constructor.</p>                                                </div>
                 <div class="tags">
             
-                            <h4>Return Value</h4>
-
-                    <table class="table table-condensed">
-        <tr>
-            <td>void</td>
-            <td></td>
-        </tr>
-    </table>
-
             
             
                     </div>
@@ -500,7 +478,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getCommentPaginationNextText">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L85">line 85</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L112">line 112</a></div>
         <code>                    string
     <strong>getCommentPaginationNextText</strong>()
         </code>
@@ -509,6 +487,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the comment pagination text for the next-button.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -528,8 +508,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setCommentPaginationNextText">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L94">line 94</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L127">line 127</a></div>
+        <code>                    void
     <strong>setCommentPaginationNextText</strong>(string $commentPaginationNextText)
         </code>
     </h3>
@@ -537,6 +517,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set the comment pagination text for the next-button.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -549,6 +531,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -557,7 +548,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getCommentPaginationPrevText">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L103">line 103</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L140">line 140</a></div>
         <code>                    string
     <strong>getCommentPaginationPrevText</strong>()
         </code>
@@ -566,6 +557,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the comment pagination text for the previous-button.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -585,7 +578,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setCommentPaginationPrevText">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L112">line 112</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L153">line 153</a></div>
         <code>                    
     <strong>setCommentPaginationPrevText</strong>(string $commentPaginationPrevText)
         </code>
@@ -594,6 +587,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set the comment pagination text for the previous-button.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -614,7 +609,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getCommentPaginationPageTemplate">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L121">line 121</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L166">line 166</a></div>
         <code>                    string
     <strong>getCommentPaginationPageTemplate</strong>()
         </code>
@@ -623,6 +618,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the comment pagination template.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -642,7 +639,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setCommentPaginationPageTemplate">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L130">line 130</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L179">line 179</a></div>
         <code>                    
     <strong>setCommentPaginationPageTemplate</strong>(string $commentPaginationPageTemplate)
         </code>
@@ -651,6 +648,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set the comment pagination template.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -671,8 +670,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addScripts">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L160">line 160</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L217">line 217</a></div>
+        <code>                    void
     <strong>addScripts</strong>()
         </code>
     </h3>
@@ -681,9 +680,18 @@
     
 
                     <div class="method-description">
-                                    <p>Enqueue additional scripts</p>                                                </div>
+                                    <p>Register additional scripts.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -692,8 +700,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addStyles">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L181">line 181</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L242">line 242</a></div>
+        <code>                    void
     <strong>addStyles</strong>()
         </code>
     </h3>
@@ -702,9 +710,18 @@
     
 
                     <div class="method-description">
-                                    <p>Enqueue additional styles</p>                                                </div>
+                                    <p>Register additional styles.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -713,15 +730,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addScript">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L194">line 194</a></div>
-        <code>                    
-    <strong>addScript</strong>($handle, $src, array $deps = array(), bool $ver = false, bool $inFooter = false)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L261">line 261</a></div>
+        <code>                    void
+    <strong>addScript</strong>($handle, $src, array $deps = [], bool $ver = false, bool $inFooter = false)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Register a script.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -739,21 +758,30 @@
                     <tr>
                 <td>array</td>
                 <td>$deps</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>bool</td>
                 <td>$ver</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>bool</td>
                 <td>$inFooter</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -762,8 +790,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addLocalizedScript">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L211">line 211</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L284">line 284</a></div>
+        <code>                    void
     <strong>addLocalizedScript</strong>($handle, $name, array $data)
         </code>
     </h3>
@@ -771,6 +799,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Register a localized script.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -793,6 +823,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -801,15 +840,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addStyle">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L228">line 228</a></div>
-        <code>                    
-    <strong>addStyle</strong>($handle, $src, array $deps = array(), bool $ver = false, string $media = &#039;all&#039;)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L307">line 307</a></div>
+        <code>                    void
+    <strong>addStyle</strong>($handle, $src, array $deps = [], bool $ver = false, string $media = &#039;all&#039;)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Regsiter a style.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -827,21 +868,30 @@
                     <tr>
                 <td>array</td>
                 <td>$deps</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>bool</td>
                 <td>$ver</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td>string</td>
                 <td>$media</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -850,8 +900,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_disableEmojis">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L241">line 241</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L324">line 324</a></div>
+        <code>                    void
     <strong>disableEmojis</strong>()
         </code>
     </h3>
@@ -859,8 +909,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Disable the Wordpress default emojis.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -869,7 +930,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_commentList">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L258">line 258</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L345">line 345</a></div>
         <code>                    void
     <strong>commentList</strong>(string $comment, array $args, int $depth)
         </code>
@@ -919,7 +980,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getCommentList">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L269">line 269</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L362">line 362</a></div>
         <code>                    string
     <strong>getCommentList</strong>($comment, $args, $depth)
         </code>
@@ -928,6 +989,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the comment list.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -967,7 +1030,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_commentPagination">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L291">line 291</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L387">line 387</a></div>
         <code>                    void
     <strong>commentPagination</strong>()
         </code>
@@ -977,7 +1040,7 @@
     
 
                     <div class="method-description">
-                                    <p>Display comments pagination.</p>                                                </div>
+                                    <p>Renders the comment pagination.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -997,7 +1060,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getCommentPagination">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L299">line 299</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L400">line 400</a></div>
         <code>                    string
     <strong>getCommentPagination</strong>()
         </code>
@@ -1006,6 +1069,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the comment pagination.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -1025,7 +1090,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addCF7DefaultRecipient">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L348">line 348</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L453">line 453</a></div>
         <code>                    
     <strong>addCF7DefaultRecipient</strong>($cf7)
         </code>
@@ -1034,6 +1099,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set a default recipient to contact form 7 mails.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -1054,7 +1121,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_moveCommentFieldToBottom">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L365">line 365</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L475">line 475</a></div>
         <code>                    mixed
     <strong>moveCommentFieldToBottom</strong>($fields)
         </code>
@@ -1063,6 +1130,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Moves the comment textfield to the bottom of the form.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -1092,8 +1161,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_enqueueScripts">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L377">line 377</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L491">line 491</a></div>
+        <code>                    void
     <strong>enqueueScripts</strong>()
         </code>
     </h3>
@@ -1105,6 +1174,15 @@
                                     <p>Enqueue all added JS files.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1113,8 +1191,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_enqueueLocalizeScripts">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L396">line 396</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L514">line 514</a></div>
+        <code>                    void
     <strong>enqueueLocalizeScripts</strong>()
         </code>
     </h3>
@@ -1126,6 +1204,15 @@
                                     <p>Enqueue all added localize JS files.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1134,8 +1221,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_enqueueStyles">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L413">line 413</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L535">line 535</a></div>
+        <code>                    void
     <strong>enqueueStyles</strong>()
         </code>
     </h3>
@@ -1147,6 +1234,15 @@
                                     <p>Enqueue all added CSS files.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1155,8 +1251,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_printGoogleAnalyticsCode">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L432">line 432</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L558">line 558</a></div>
+        <code>                    void
     <strong>printGoogleAnalyticsCode</strong>()
         </code>
     </h3>
@@ -1168,6 +1264,15 @@
                                     <p>Prints the Google Analytics code if a tracking code is set.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1176,15 +1281,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_mainLoop">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L464">line 464</a></div>
-        <code>                    
-    <strong>mainLoop</strong>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L596">line 596</a></div>
+        <code>                    void
+    <strong>mainLoop</strong>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Performs the Wordpress main loop.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -1194,9 +1301,23 @@
                 <td>$partial</td>
                 <td></td>
             </tr>
+                    <tr>
+                <td><a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a></td>
+                <td>$noPosts</td>
+                <td></td>
+            </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1205,15 +1326,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_customLoop">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L476">line 476</a></div>
-        <code>                    
-    <strong>customLoop</strong>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, array $queryArgs = array(), <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L618">line 618</a></div>
+        <code>                    void
+    <strong>customLoop</strong>(<a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $partial, array $queryArgs = [], <a href="../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $noPosts = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Performs a custom loop.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -1236,6 +1359,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -1244,8 +1376,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_self">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L501">line 501</a></div>
-        <code>        static            
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/BambeeWebsite.php#L643">line 643</a></div>
+        <code>        static            <a href="../MBVMedia/Lib/Singleton.html"><abbr title="MBVMedia\Lib\Singleton">Singleton</abbr></a>
     <strong>self</strong>()
         </code>
     </h3>
@@ -1253,8 +1385,19 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the instance itself.</p>                                                </div>
                 <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../MBVMedia/Lib/Singleton.html"><abbr title="MBVMedia\Lib\Singleton">Singleton</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>

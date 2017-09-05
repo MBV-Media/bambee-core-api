@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -99,6 +100,8 @@
         
     
 
+            <div class="description">
+            <p>Class MetaKeyChoice</p>                                </div>
     
     
             <h2>Constants</h2>
@@ -107,14 +110,14 @@
                     <tr>
                 <td>TYPE_DEFAULT</td>
                 <td class="last">
-                    <p><em></em></p>
+                    <p><em>Equal to the FILTER_DEFAULT constant.</em></p>
                     <p></p>
                 </td>
             </tr>
                     <tr>
                 <td>TYPE_ARRAY</td>
                 <td class="last">
-                    <p><em></em></p>
+                    <p><em>Equal to the FILTER_REQUIRE_ARRAY constant.</em></p>
                     <p></p>
                 </td>
             </tr>
@@ -142,8 +145,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getKey">getKey</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the key that identifies the meta key.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_getKey"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
@@ -153,8 +155,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getLabel">getLabel</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the meta key's label.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_getLabel"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
@@ -164,8 +165,7 @@
                 <div class="col-md-8 type">
                     <a href="#method_getType">getType</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the meta key's type.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_getType"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
@@ -175,19 +175,17 @@
                 <div class="col-md-8 type">
                     <a href="#method_getTemplate">getTemplate</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the Template that renders the meta key.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_getTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_setTemplate">setTemplate</a>(<a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Set the template that renders the meta key.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_setTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
@@ -195,21 +193,19 @@
                     mixed
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_getValue">getValue</a>(null $postId = null)
+                    <a href="#method_getValue">getValue</a>(null|mixed $postId = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the meta value of the meta key.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_getValue"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_save">save</a>($postId)
+                    <a href="#method_save">save</a>(mixed $postId)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Save the post meta.</p>                </div>
                 <div class="col-md-2"><small>from&nbsp;<a href="../../MBVMedia/MetaBox/MetaKey.html#method_save"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a></small></div>
             </div>
                     <div class="row">
@@ -219,19 +215,17 @@
                 <div class="col-md-8 type">
                     <a href="#method_getChoices">getChoices</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the choices.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addChoice">addChoice</a>($value, $label)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add a choice.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -242,7 +236,7 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L23">line 23</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L36">line 36</a></div>
         <code>                    
     <strong>__construct</strong>($key, $label, $type = self::TYPE_DEFAULT)
         </code>
@@ -283,7 +277,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getKey">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getKey"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L53">line 53</a></div>
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getKey"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L97">line 97</a></div>
         <code>                    mixed
     <strong>getKey</strong>()
         </code>
@@ -292,6 +286,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the key that identifies the meta key.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -311,7 +307,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getLabel">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getLabel"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L60">line 60</a></div>
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getLabel"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L110">line 110</a></div>
         <code>                    mixed
     <strong>getLabel</strong>()
         </code>
@@ -320,6 +316,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the meta key's label.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -339,7 +337,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getType">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getType"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L67">line 67</a></div>
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getType"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L123">line 123</a></div>
         <code>                    mixed
     <strong>getType</strong>()
         </code>
@@ -348,6 +346,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the meta key's type.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -367,7 +367,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getTemplate">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L74">line 74</a></div>
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L136">line 136</a></div>
         <code>                    <a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a>
     <strong>getTemplate</strong>()
         </code>
@@ -376,6 +376,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the Template that renders the meta key.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -395,8 +397,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_setTemplate">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_setTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L81">line 81</a></div>
-        <code>                    
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_setTemplate"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L151">line 151</a></div>
+        <code>                    void
     <strong>setTemplate</strong>(<a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template)
         </code>
     </h3>
@@ -404,6 +406,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Set the template that renders the meta key.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -416,6 +420,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -424,23 +437,25 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getValue">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getValue"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L90">line 90</a></div>
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_getValue"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L167">line 167</a></div>
         <code>                    mixed
-    <strong>getValue</strong>(null $postId = null)
+    <strong>getValue</strong>(null|mixed $postId = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Get the meta value of the meta key.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td>null</td>
+                <td>null|mixed</td>
                 <td>$postId</td>
-                <td></td>
+                <td>(optional) The id of the post to receive the meta value from. If no id or null is passed the id of the current post in the loop will be used.</td>
             </tr>
             </table>
 
@@ -462,27 +477,38 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_save">
-        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_save"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L102">line 102</a></div>
-        <code>                    
-    <strong>save</strong>($postId)
+        <div class="location">in <a href="../../MBVMedia/MetaBox/MetaKey.html#method_save"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKey.php#L186">line 186</a></div>
+        <code>                    void
+    <strong>save</strong>(mixed $postId)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Save the post meta.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$postId</td>
-                <td></td>
+                <td>(required) The id of the post to save the post meta for.</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -491,7 +517,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getChoices">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L36">line 36</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L52">line 52</a></div>
         <code>                    array
     <strong>getChoices</strong>()
         </code>
@@ -500,6 +526,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the choices.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -519,8 +547,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addChoice">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L44">line 44</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaKeyChoice.php#L66">line 66</a></div>
+        <code>                    void
     <strong>addChoice</strong>($value, $label)
         </code>
     </h3>
@@ -528,6 +556,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add a choice.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -545,6 +575,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>

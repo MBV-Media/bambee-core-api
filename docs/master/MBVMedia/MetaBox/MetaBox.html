@@ -25,7 +25,8 @@
                 <div id="control-panel">
                     <form action="#" method="GET">
                 <select id="version-switcher" name="version">
-                                            <option value="../../../master/index.html" data-version="master">1.6.6</option>
+                                            <option value="../../../master/index.html" data-version="master">1.7.0</option>
+                                            <option value="../../../1.6.6/index.html" data-version="1.6.6">1.6.6</option>
                                             <option value="../../../1.6.5/index.html" data-version="1.6.5">1.6.5</option>
                                             <option value="../../../1.6.4/index.html" data-version="1.6.4">1.6.4</option>
                                             <option value="../../../1.6.3/index.html" data-version="1.6.3">1.6.3</option>
@@ -99,6 +100,8 @@
         
     
 
+            <div class="description">
+            <p>Class MetaBox</p>                                </div>
     
     
     
@@ -111,7 +114,7 @@
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method___construct">__construct</a>($id, $title, $context = &#039;advanced&#039;, $priority = 10, <a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template = null)
+                    <a href="#method___construct">__construct</a>($id, $title, $context = &#039;advanced&#039;, int $priority = 10, <a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template = null)
         
                                             <p>MetaBox constructor.</p>                </div>
                 <div class="col-md-2"></div>
@@ -123,63 +126,57 @@
                 <div class="col-md-8 type">
                     <a href="#method_getMetaKeyList">getMetaKeyList</a>()
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the meta key list.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addMetaKey">addMetaKey</a>(<a href="../../MBVMedia/MetaBox/MetaKey.html"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> $metaKey)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add a meta key</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_addPostTypeSupport">addPostTypeSupport</a>($postType, int $priority = 10)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Add support for a specific post type.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_actionAddMetaBox">actionAddMetaBox</a>($post)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>'add_meta_boxes' action hook callback.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_renderMetaBox">renderMetaBox</a>($post)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Renders the meta box.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    
+                    void
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_actionSavePost">actionSavePost</a>($postId, $post, $update)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>'save_post' action hook callback.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -187,10 +184,9 @@
                     mixed
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_getPostMeta">getPostMeta</a>($metaKey, null $postId = null)
+                    <a href="#method_getPostMeta">getPostMeta</a>($metaKey, mixed|null $postId = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get the post meta.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -198,10 +194,9 @@
                     array
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_getPostMetas">getPostMetas</a>(null $postId = null)
+                    <a href="#method_getPostMetas">getPostMetas</a>(mixed|null $postId = null)
         
-                                            <p class="no-description">No description</p>
-                                    </div>
+                                            <p>Get all post metas.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
             </div>
@@ -212,9 +207,9 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L35">line 35</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L90">line 90</a></div>
         <code>                    
-    <strong>__construct</strong>($id, $title, $context = &#039;advanced&#039;, $priority = 10, <a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template = null)
+    <strong>__construct</strong>($id, $title, $context = &#039;advanced&#039;, int $priority = 10, <a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a> $template = null)
         </code>
     </h3>
     <div class="details">
@@ -243,14 +238,14 @@
                 <td></td>
             </tr>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$priority</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
                     <tr>
                 <td><a href="../../MBVMedia/Lib/ThemeView.html"><abbr title="MBVMedia\Lib\ThemeView">ThemeView</abbr></a></td>
                 <td>$template</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
@@ -263,7 +258,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getMetaKeyList">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L61">line 61</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L119">line 119</a></div>
         <code>                    array
     <strong>getMetaKeyList</strong>()
         </code>
@@ -272,6 +267,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Get the meta key list.</p>                                                </div>
                 <div class="tags">
             
                             <h4>Return Value</h4>
@@ -291,8 +288,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addMetaKey">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L68">line 68</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L130">line 130</a></div>
+        <code>                    void
     <strong>addMetaKey</strong>(<a href="../../MBVMedia/MetaBox/MetaKey.html"><abbr title="MBVMedia\MetaBox\MetaKey">MetaKey</abbr></a> $metaKey)
         </code>
     </h3>
@@ -300,6 +297,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add a meta key</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -312,6 +311,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -320,8 +328,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_addPostTypeSupport">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L77">line 77</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L148">line 148</a></div>
+        <code>                    void
     <strong>addPostTypeSupport</strong>($postType, int $priority = 10)
         </code>
     </h3>
@@ -329,6 +337,9 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Add support for a specific post type.</p>                    <p>Note: By default the meta box will be added to every post type.
+If you add supported post types, the meta box will only appear on these post types.</p>                            </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -341,11 +352,20 @@
                     <tr>
                 <td>int</td>
                 <td>$priority</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -354,8 +374,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_actionAddMetaBox">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L87">line 87</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L164">line 164</a></div>
+        <code>                    void
     <strong>actionAddMetaBox</strong>($post)
         </code>
     </h3>
@@ -363,6 +383,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>'add_meta_boxes' action hook callback.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -375,6 +397,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -383,8 +414,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_renderMetaBox">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L95">line 95</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L178">line 178</a></div>
+        <code>                    void
     <strong>renderMetaBox</strong>($post)
         </code>
     </h3>
@@ -392,6 +423,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>Renders the meta box.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -404,6 +437,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -412,8 +454,8 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_actionSavePost">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L106">line 106</a></div>
-        <code>                    
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L195">line 195</a></div>
+        <code>                    void
     <strong>actionSavePost</strong>($postId, $post, $update)
         </code>
     </h3>
@@ -421,6 +463,8 @@
             
     
 
+                    <div class="method-description">
+                                    <p>'save_post' action hook callback.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -443,6 +487,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
             
             
                     </div>
@@ -451,15 +504,17 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getPostMeta">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L134">line 134</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L227">line 227</a></div>
         <code>                    mixed
-    <strong>getPostMeta</strong>($metaKey, null $postId = null)
+    <strong>getPostMeta</strong>($metaKey, mixed|null $postId = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Get the post meta.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
@@ -470,9 +525,9 @@
                 <td></td>
             </tr>
                     <tr>
-                <td>null</td>
+                <td>mixed|null</td>
                 <td>$postId</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
@@ -494,23 +549,25 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_getPostMetas">
-        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L147">line 147</a></div>
+        <div class="location">at         <a href="https://github.com/MBV-Media/bambee-core/blob/master/src/MBVMedia/MetaBox/MetaBox.php#L244">line 244</a></div>
         <code>                    array
-    <strong>getPostMetas</strong>(null $postId = null)
+    <strong>getPostMetas</strong>(mixed|null $postId = null)
         </code>
     </h3>
     <div class="details">
             
     
 
+                    <div class="method-description">
+                                    <p>Get all post metas.</p>                                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td>null</td>
+                <td>mixed|null</td>
                 <td>$postId</td>
-                <td></td>
+                <td>(optional)</td>
             </tr>
             </table>
 
